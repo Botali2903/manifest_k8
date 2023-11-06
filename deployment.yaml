@@ -18,7 +18,7 @@ spec:
         app: app
     spec:
       containers:
-      - image: Botali2903/app:5
+      - image: Botali2903/images:app-6
         name: app
         resources: {}
 status: {}
