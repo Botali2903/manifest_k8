@@ -6,7 +6,7 @@ metadata:
     app: app
   name: app
 spec: 
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: app
@@ -18,8 +18,8 @@ spec:
         app: app
     spec:
       containers:
-      - image: Botali2903/images:app-6
-        name: app
+      - image: bota2903/images:app-8
+        name: images
         resources: {}
 status: {}
 ---
